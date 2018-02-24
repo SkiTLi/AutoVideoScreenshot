@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffbced"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#87c6ed"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:background="#87a0af"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/start_button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Star Video" />
+
+            <Button
+                android:id="@+id/buffer_button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Buffer" />
+
+            <Button
+                android:id="@+id/shot_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Shot" />
+
+        </LinearLayout>
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <!--можно напрямую указать ссылкой на фрагмент:-->
+    <!--<fragment-->
+    <!--android:name="com.example.user_pc.testsktl.classwork13.Classwork14Fragment"-->
+    <!--android:id="@+id/container"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" />-->
+
+
+    <FrameLayout
+        android:id="@+id/container_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
