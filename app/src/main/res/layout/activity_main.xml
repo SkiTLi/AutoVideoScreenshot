@@ -8,7 +8,8 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
         android:background="#87c6ed"
         android:orientation="horizontal">
 
@@ -40,25 +41,25 @@
         </LinearLayout>
 
         <VideoView
-            android:id="@+id/videoView"
+            android:id="@+id/video_View"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
+            android:layout_height="wrap_content" />
 
     </LinearLayout>
 
-    <!--можно напрямую указать ссылкой на фрагмент:-->
-    <!--<fragment-->
-    <!--android:name="com.example.user_pc.testsktl.classwork13.Classwork14Fragment"-->
-    <!--android:id="@+id/container"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent" />-->
-
-
-    <FrameLayout
-        android:id="@+id/container_fragment"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#aa00ff"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image_View"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
 
 
 </LinearLayout>
