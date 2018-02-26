@@ -16,7 +16,7 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="150dp"
+            android:layout_height="wrap_content"
             android:background="#87a0af"
             android:orientation="vertical">
 
@@ -26,17 +26,26 @@
                 android:layout_height="wrap_content"
                 android:text="Star Video" />
 
-            <Button
-                android:id="@+id/buffer_button2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Show Buffer" />
+            <!--<Button-->
+                <!--android:id="@+id/buffer_button2"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Show Buffer" />-->
 
             <Button
                 android:id="@+id/shot_button3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Get Shot" />
+
+            <EditText
+                android:id="@+id/edit_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="10 fps"
+
+                android:inputType="number"
+                />
 
         </LinearLayout>
 
